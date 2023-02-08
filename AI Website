@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Futuristic Blog</title>
+    <style>
+      /* Add your custom styles here */
+      body {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        color: #00ffff;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 35px;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .post-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Futuristic Blog</h1>
+      <div class="post">
+        <h2>Post Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nam euismod elit eu ex molestie, id tempor elit rutrum.
+          Sed malesuada lectus sit amet nibh malesuada, a bibendum
+          ex commodo.
+        </p>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/T_q3Z3HOVQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <img class="post-image" src="https://via.placeholder.com/800x400" alt="Post Image">
+      </div>
+    </div>
+  </body>
+</html>
